@@ -1,0 +1,38 @@
+
+
+/* Cambria, Cochin, Georgia, Times, 'Times New Roman', serif -> good font  */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background-color: #c9dff7d2;
+}
+
+.panel {
+    background-color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.qrcode {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.heading {
+    font-family: "Poppins";
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.description {
+    letter-spacing: -0.2px;
+    font-family: "Poppins";
+    font-size: 12px;
+    color: #828080;
+}
